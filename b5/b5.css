@@ -1,0 +1,31 @@
+ul{
+    list-style-type: none ;
+}
+/* ol{
+    list-style-type: none;
+
+} */
+.divcha{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: relative;
+}
+.divcon{
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+    /* top: 50px;
+    left: 50px; */
+    bottom: 20px;
+    z-index: 2;
+}
+.divcon2{
+    width: 100px;
+    height: 100px;
+    background: pink;
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+}

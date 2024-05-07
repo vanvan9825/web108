@@ -1,0 +1,17 @@
+.form-group{
+    width: 250px;
+    height: 150px;
+    background-color : blue ;
+    padding: 5px;
+    box-shadow: 0 0 5px blue;
+    
+}
+
+.b2{
+    width: 300px;
+    height: 350px;
+    background-color: antiquewhite;
+    padding: 15px;
+    box-shadow: 0 0 20px gray;
+    border-radius: 10px;
+}

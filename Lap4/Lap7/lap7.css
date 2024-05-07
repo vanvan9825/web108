@@ -1,0 +1,183 @@
+body {
+    padding:0px;
+    margin:0px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0px auto;
+    height: auto;
+    position: relative;
+}
+.container > header{ 
+    background-image: url(https://iap-poly.s3.ap-southeast-1.amazonaws.com/wallpaper/hero3.JPG?fbclid=IwAR15AUsvOgZGnip3gywPuPnaCXlsypsu4tgjlLmppM_ZQti_TGh8MWaynIU);
+    background-size:100% 100%;
+    height:0px;
+    padding-bottom:25%;
+    position: relative;
+}
+.top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: orangered;
+    border-bottom-left-radius: 30px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-variant: small-caps;
+}
+.top-right > a {
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    padding: 5px;
+}
+.top-right > a:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: 500;
+}
+.company-info{
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    
+    
+}
+.company-info>h1{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: white;
+    font-size: 35px;
+    border-bottom: 1px dotted red;
+    text-shadow: 0 0 5px orangered;
+    
+}
+.company-info>h5{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: orangered;
+    font-size: 20px;
+    border-bottom: 1px dotted red;
+    letter-spacing: 2px;
+
+}
+.container > nav{
+    line-height:40px;
+    background-color:orangered;
+    color:white;
+    text-align:center;
+    font-variant:small-caps;
+}
+.container > article{
+    height:auto;
+    width:70%;
+    background-color:white;
+    float:left;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+}
+.container > aside{
+    height:auto;
+    width:28%;
+    background-color:white;
+    float:right;
+}
+.container > footer{
+    border-top:5px double orangered;
+    line-height:50px;
+    background-color:lightcyan;
+    text-align:center;
+    font-variant:small-caps;
+    clear:both;
+}
+.container > nav > a{
+    color:white;
+    text-decoration:none;
+    margin:0px 10px;
+}
+.container > nav > a:hover{
+    color:yellow;
+    text-decoration:underline;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style-type: none;
+    border-radius: 3px;
+    box-shadow:0 0 2px orange ; 
+}
+.vmenu>li>a{
+    background: url('bullet-orange.png') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orange;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    line-height: 30px;
+    color: orange;
+}
+
+.vmenu>li{
+    border-bottom: 1px dotted orangered;
+}
+.vmenu>li>a:hover{
+    background: url('bullet-red-alt.png') no-repeat 10px center;
+    text-decoration: underline;
+    color: white;
+    background-color: orangered;
+    display: block;
+}
+/* ---------------------------------------------------- */
+.col-25{
+    width: 25%;
+    height: 180px;
+    float: left;
+}
+.pord{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.pord>.name{
+    font-variant: small-caps;
+    color: orangered;
+}
+.pord>.image{
+    max-width: 98%;
+    height: 130px;
+    margin-bottom: 10px;
+}
+.pord>.price{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: impact ;
+    font-size: 25px;
+    color: orange;
+}
+.pord>.icons{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+    
+    
+}
+.pord>.new-icons{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

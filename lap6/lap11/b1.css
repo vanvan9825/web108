@@ -1,0 +1,16 @@
+table{
+    border-radius: collapse;
+    border-color: rgb(149, 240, 175);
+    text-align: center;
+}
+.title{
+    background-color: rgb(72, 226, 72);
+    color: white;
+
+}
+.title2{
+    background-color: rgb(171, 242, 171);
+}
+.title3{
+    color: red;
+}   

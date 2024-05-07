@@ -1,0 +1,68 @@
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    /* padding: 10px 5px 7px 3px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    border: 3px solid red;
+    border-left: 5px solid blue;
+    border-right: 10px solid yellowgreen;
+    border-top: 8px solid pink;
+    border-bottom: 1px solid red;
+    border-radius: 20%;
+    /* border-bottom-right-radius: 20px; */
+    box-shadow: 10px -10px 5px gray;
+    margin: 30px;
+  
+    background-image: url("https://hoanghamobile.com/tin-tuc/wp-content/webp-express/webp-images/uploads/2023/07/hinh-dep.jpg.webp");
+    background-repeat: repeat-x;
+    background-position: 50% 50%;
+  }
+  
+  /* body {
+    background-image: url("https://hoanghamobile.com/tin-tuc/wp-content/webp-express/webp-images/uploads/2023/07/hinh-dep.jpg.webp");
+    background-size: 25% 25%;
+  } */
+header{
+    width: 1000px;
+    height: 50px;
+    background-color: orange;
+    
+}
+
+
+
+nav{
+    width: 1000px;
+    height: 30px;
+    background-color: aquamarine;
+}
+article{
+    width: 700px;
+    height: 100px;
+    background-color: chartreuse;
+
+}
+aside{
+    width: 300px;
+    height: 100px;
+    background-color: red;
+}
+footer{
+    width: 1000px;
+    height: 30px;
+    background-color: blueviolet;
+}
+section{
+    width: 100%;
+    float: left;
+    display: flex;
+}
+
+footer{
+    clear: both;
+}

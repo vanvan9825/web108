@@ -1,0 +1,28 @@
+.dssv{
+    border-collapse: collapse;
+}
+/* .dssv .hoa{
+    background-color: aqua;
+} */
+
+tr:nth-child(2n+1){
+     background-color: aqua;
+
+}
+tr:nth-child(2n){
+    background-color: red;
+
+}
+
+.dssv tr:nth-child(3){
+    background-color: pink;
+
+}
+
+tr:first-child{
+    color: blue;
+}
+
+tr:last-child{
+    color: white;
+}
